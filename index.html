@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+</head>
+
+<body>
+    <input type="checkbox" id="bars">
+    <nav class="nav-bar" id="navbar">
+        <div class="content">
+            <div class="site-logo">
+                <a href="#" class="logo-link">Travel with Vidda</a>
+            </div>
+
+            <ul class="navigation">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#about">About us</a></li>
+                <li class="link"><a href="#destination">Destination</a></li>
+                <li class="link"><a href="#contact">contact</a></li>
+            </ul>
+            <label for='bars' class="icon-bars"><i class="ri-bar-chart-2-fill"></i></label>
+        </div>
+    </nav>
+
+    <header class="home" id="home">
+        <div class="content">
+            <h1>The <strong>best</strong> way to <strong>plan your next</strong> adventure </h1>
+            <h4>Turn Your Vacation Dreams Into Reality</h4>
+            <button class="btn-explore">Explore more <i class="ri-arrow-right-line"></i> </button>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="items">
+
+                <div class="image">
+                    <img src="./assets/9arches.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <h2 class="about-title">
+                            About Us
+                        </h2>
+                        <div class="about-desc">
+                            <p>
+                                Welcome to our travel agency in Sri Lanka.
+                                We are offering personalized tour guides and trips, showcasing the island's rich
+                                culture, stunning landscapes, and historical treasures.
+                            </p>
+                            <p>
+                                Whether you're seeking adventure, a beach getaway, or cultural exploration, our
+                                experienced team will craft the perfect itinerary for an unforgettable Sri Lankan
+                                journey.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item-data">
+                        <div class="col">
+                            <h1>268</h1>
+                            <span>Completed Trips</span>
+                        </div>
+                        <div class="col">
+                            <h1>54</h1>
+                            <span>Tour Guides</span>
+                        </div>
+                        <div class="col">
+                            <h1>39</h1>
+                            <span>Destinations</span>
+                        </div>
+                    </div>
+                    <button class="btn-explore">Explore more <i class="ri-arrow-right-line"></i> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="destination" id="destination">
+        <div class="heading">
+            <h1 class="title">discover the most attracative destinations</h1>
+            <p class="subtitle">Let's see the nature with your passion</p>
+        </div>
+        <div class="content">
+            <div class="items">
+
+                <div class="card">
+                    <div class="image">
+                        <img src="./assets/sigiriya.jpg" alt="" srcset="">
+                    </div>
+                    <div class="content-card">
+                        <h4>Sigiriya</h4>
+                        <p>
+                            A majestic ancient rock fortress in Sri Lanka, captivates with its stunning frescoes and
+                            breathtaking panoramic views.
+                        </p>
+                        <form action="sigiriya.html">
+                            <button type="submit" class="btn-read">Read More</button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="./assets/galle.jpg" alt="" srcset="">
+                    </div>
+                    <div class="content-card">
+                        <h4>Galle</h4>
+                        <p>
+                            A charming coastal city in Sri Lanka, is famous for its well-preserved 16th-century Dutch
+                            fort and colonial architecture.
+                        </p>
+                        <form action="galle.html">
+                            <button type="submit" class="btn-read">Read More</button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="./assets/kandy.jpg" alt="" srcset="">
+                    </div>
+                    <div class="content-card">
+                        <h4>Kandy</h4>
+                        <p>
+                            A picturesque city in Sri Lanka, is renowned for its sacred Temple of the Tooth, lush scenic
+                            landscapes, and vibrant cultural heritage.
+                        <form action="kandy.html">
+                            <button type="submit" class="btn-read">Read More</button>
+                        </form>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+
+        <div class="content">
+            <div class="items">
+
+                <div class="item">
+                    <div class="heading">
+                        <h1 class="title">Contact us</h1>
+                        <div class="subtitle">We are able to reply within 24 hours.</div>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <div class="line">
+                                <span><i class="ri-phone-line"></i></span>
+                                <h4>Call us</h4>
+                            </div>
+                            <p>+94 (777) 225 255</p>
+                        </div>
+                        <div class="card">
+                            <div class="line">
+                                <span><i class="ri-mail-line"></i></span>
+                                <h4>Mail us</h4>
+                            </div>
+                            <p>info@travelvidda.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <form>
+                        <input type="mail" class="input" placeholder="Your Email">
+                        <input type="text" class="input" placeholder="Your Phone">
+                        <textarea rows="6" class="input" placeholder="Your Message"></textarea>
+                        <button class="btn-contact">send a message </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="content">
+            <h4>Travel with Vidda</h4>
+            <div class="social">
+                <span>
+                    <a href="#f"><i class="ri-facebook-fill"></i></a>
+                </span>
+                <span>
+                    <a href="#f"><i class="ri-instagram-fill"></i></a>
+                </span>
+                <span>
+                    <a href="#f"><i class="ri-twitter-fill"></i></a>
+                </span>
+                <span>
+                    <a href="#f"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                    <a href="#f"><i class="ri-youtube-fill"></i></a>
+                </span>
+            </div>
+            <p>
+                <i class="ri-double-quotes-l"></i>
+                Traveling - it gives you a sense of awe and wonder,
+                expanding your perspective beyond borders and boundaries.
+                <i class="ri-double-quotes-r"></i>
+
+            </p>
+            <p>Explore Sri Lanka with us for unforgettable tour guides and trips!</p>
+
+        </div>
+        <div class="rights">
+            Copyright &copy; 2024 by @travelwithvidda | All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
