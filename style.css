@@ -636,7 +636,7 @@ footer .rights {
         height: 100%;
     }
     .destination .items .card .image img{
-        object-fit: contain;
-        /* height: max-content; */
+        /* object-fit: contain; */
+        height: 100%;
     }
 }
