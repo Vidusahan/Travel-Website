@@ -633,10 +633,10 @@ footer .rights {
     }
 
     .destination .items .card .image {
-        height: auto;
+        height: 100%;
     }
     .destination .items .card .image img{
         object-fit: contain;
-        height: max-content;
+        /* height: max-content; */
     }
 }
