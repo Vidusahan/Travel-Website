@@ -295,7 +295,9 @@ section .heading .subtitle {
     padding-top: 0;
 }
 .destination .items {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 4rem;
     padding: 0rem 1rem;
@@ -620,5 +622,17 @@ footer .rights {
         position: fixed;
         top: 0;
         right: 0;
+    }
+    .destination .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination .items .card {
+        max-width: 100%;
+    }
+
+    .destination .items .card .image {
+        height: auto;
     }
 }
