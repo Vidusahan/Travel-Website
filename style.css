@@ -582,7 +582,10 @@ footer .rights {
 .icon-bars,#bars {
     display: none;
 }
-@media (max-width:700px) {
+@media (max-width:768px) {
+    .about .item-data {
+        grid-template-columns: 1fr; 
+    }
     .icon-bars {
         display: flex;
         cursor: pointer;
